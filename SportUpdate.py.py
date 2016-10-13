@@ -27,7 +27,6 @@ def main():
         if  conditional is True:
             numberPlays += 1
             thePlay = findPlay(playByPlay)
-            print("cheeeeeese")
             sendMessage(thePlay)
         gameOver = isGameOver(soup)
 
